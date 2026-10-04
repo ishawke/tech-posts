@@ -1,5 +1,5 @@
 #hexo robots.txt
-# 允许百度、谷歌、必应
+
 User-agent: Baiduspider
 Allow: /
 
@@ -11,10 +11,10 @@ Allow: /
 
 # 禁止所有AI训练爬虫（关键）
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
 
 User-agent: *
 Disallow: /admin/
